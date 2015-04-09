@@ -65,7 +65,7 @@ public:
 
 	inline size_t space()
 	{
-		return this->size() - this->length();
+		return this->size() - _wrPtr;
 	}
 
 	inline size_t size()
